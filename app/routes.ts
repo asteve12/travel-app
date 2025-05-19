@@ -8,4 +8,5 @@ export default [
     route("trips", "routes/admin/trips.tsx"),
   ]),
   route("sign-in", "routes/root/sign-in.tsx"),
+  route("api/create-trip", "routes/api/create-trip.ts"),
 ] satisfies RouteConfig;
